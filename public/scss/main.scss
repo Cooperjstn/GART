@@ -1,0 +1,383 @@
+@import "./imports/_normalize.scss";
+
+* {
+   box-sizing: border-box; }
+
+   img {
+
+      display: block; }
+
+      #app-container {
+         font-family: Helvetica, sans-serif;
+         background: #2ecc71;
+
+      }
+
+      .display-container {
+         background: #2ecc71;
+         background-size: cover;
+         margin: 0;
+         color: #FFF;
+         text-shadow: 2px 2px #000000;
+
+         h1{
+            font-size: 60px;
+            color: #FFF;
+            text-shadow: 2px 2px 4px #000000;
+            font-family: 'Raleway', sans-serif;
+         }
+         p{
+            font-size: 30px;
+         }
+      }
+
+      .login-btn {
+         color: #FFF;
+         font-size: 20px;
+
+      }
+
+
+      .gallery {
+         background: url('images/download (3).jpeg')no-repeat fixed;
+         color: #FFF;
+         font-size: 20px;
+         font-weight: 300px;
+
+         text-shadow: 2px 2px #000000;
+      }
+
+
+      .artist {
+         background: url('images/Water-Lilies-small.jpg');
+         color: #FFF;
+         font-size: 20px;
+         font-weight: 300px;
+         text-shadow: 2px 2px #000000;
+
+      }
+
+      .createShow {
+         color: #FFF;
+         font-size: 20px;
+         font-weight: 300px;
+         text-shadow: 2px 2px #000000;
+
+      }
+
+      .showGalleries{
+         color: #FFF;
+         font-size: 20px;
+         font-weight: 300px;
+         text-shadow: 2px 2px #000000;
+      }
+
+      .galleryList{
+         background: url('/images/mainpageImg.jpeg') no-repeat fixed;
+         background-size: cover;
+         padding: 5px;
+         margin-top: 5px;
+         border-radius: 15px;
+         display: inline-block;
+         img{
+            width: 70%;
+         }
+         h1, p{
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+         }
+         i {
+            position: fixed;
+            top: 5px;
+            right: 5px;
+         }
+
+         li{
+            font-size: 20px;
+
+            text-shadow: 2px 2px #000000;
+            list-style-type: none;
+            display: inline-block;
+            height: 250px;
+            text-align: left;
+            color: #FFF;
+
+            a{
+               position: fixed;
+               top: 5%;
+               right: 95%;
+            }
+
+         }
+      }
+      .galleryListB{
+      background: url('/images/mainpageImg.jpeg') no-repeat fixed;
+      background-size: cover;
+      padding: 5px;
+      margin-top: 5px;
+      border-radius: 15px;
+      display: inline-block;
+      img{
+         width: 70%;
+      }
+      h1, p{
+         font-family: 'Raleway', sans-serif;
+         color: #fff;
+      }
+      i {
+         position: fixed;
+         top: 5px;
+         right: 365px;
+      }
+   }
+      .imgHov1{
+         width:400px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText1{
+         width:300px;
+         height:217px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+         p{
+            font-size: 20px;
+         }
+      }
+      .imgHov1:hover .imgText1
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size: 16px;
+         font-weight:700;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov2{
+         width:400px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText2{
+         width:300px;
+         height:217px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov2:hover .imgText2
+      {
+         opacity: 1;
+         text-align: inherit;
+         color:#FFFFFF;
+         font-size:12px;
+         font-weight:700;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov3{
+         width:420px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText3{
+         width:300px;
+         height:200px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov3:hover .imgText3
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:14px;
+         font-weight:700;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov4{
+         width:420px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText4{
+         width:300px;
+         height:210px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov4:hover .imgText4
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:15px;
+         font-weight:900;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov5{
+         width:400px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText5{
+         width:275px;
+         height:240px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov5:hover .imgText5
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:13px;
+         font-weight:900;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov6{
+         width:400px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText6{
+         width:275px;
+         height:217px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov6:hover .imgText6
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:13px;
+         font-weight:900;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov7{
+         width:400px;
+         height:217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText7{
+         width:300px;
+         height:200px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov7:hover .imgText7
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:16px;
+         font-weight:900;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .imgHov8{
+         width: 400px;
+         height: 217px;
+         position: relative;
+         display: inline-block;
+      }
+      .imgText8{
+         width: 275px;
+         height: 200px;
+         position:absolute;
+         top:0;
+         left:0;
+         opacity: 0;
+      }
+      .imgHov8:hover .imgText8
+      {
+         opacity: 1;
+         text-align: justify-content;
+         color:#FFFFFF;
+         font-size:15px;
+         font-weight: 700;
+         font-family:"Times New Roman", Times, serif;
+         padding: 30px;
+      }
+      .artistList{
+         background: #2ecc71;
+         background: #2ecc71;
+         background-size: cover;
+         margin: 0;
+         i {
+            position: fixed;
+            top: 5px;
+            right: 20px; }
+         }
+         li{
+            padding: 30px;
+            font-size: 20px;
+            color: #FFF;
+            font-family: 'Raleway', sans-serif;
+            text-shadow: 2px 2px #000000;
+            list-style-type: none;
+            display: inline-block;
+            img{
+               width: 100%;
+            }
+            h1{
+               color: #FFF;
+            }
+
+         }
+
+         #new-gallery-form{
+            font-size: 15px;
+            color: #FFF;
+            text-shadow: 2px 2px #000000;
+
+         }
+         #auth-form{
+            background: url('/images/images.jpeg') no-repeat fixed;
+            background-size: contain;
+            color: #FFF;
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 25px;
+            position: relative;
+         }
+
+         .galleryshows{
+            background: #2ecc71;
+            background-size: cover;
+            color: #FFF;
+            margin-top: 10px;
+            i {
+               position: fixed;
+
+               right: 140px; }
+            }
+
+
+            /*# sourceMappingURL=styles.css.map */
